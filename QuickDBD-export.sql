@@ -18,7 +18,7 @@ CREATE TABLE "dementia" (
     "Gender" VARCHAR(225)   NOT NULL,
     "Family_History" VARCHAR(225)   NOT NULL,
     "Smoking_Status" VARCHAR(225)   NOT NULL,
-    "APOE_ε4" VARCHAR(225)   NOT NULL,
+    "APOE_4" VARCHAR(225)   NOT NULL,
     "Physical_Activity" VARCHAR(225)   NOT NULL,
     "Depression_Status" VARCHAR(225)   NOT NULL,
     "Cognitive_Test_Scores" INT   NOT NULL,
