@@ -2,7 +2,7 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "dementia_patients_health_data" (
+CREATE TABLE "dementia" (
     "Diabetic" INT   NOT NULL,
     "AlcoholLevel" FLOAT   NOT NULL,
     "HeartRate" INT   NOT NULL,
