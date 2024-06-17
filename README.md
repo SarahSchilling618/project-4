@@ -16,3 +16,5 @@ Design one or more machine learning models to accurately predict whether a patie
 
 ## Ethical Considerations / Closing Remarks 
 There are significant ethical considerations involved with conducting a cognitive test. Some people may not immediately take the test because they don't necessarily want to know their diagnosis. They may want to retain control over their lives and try to better themselves through altering lifestyle choices without having this diagnosis on their consciousness. They may not want to know they have dementia and have this inescapable fate. A low accuracy model without cognitive test scores just shows that dementia is a complicated condition and does not have one known cause. The research is still limited. You can do stuff about smoking, weight, diet, etc., but once you have the cognitive test results, you essentially have the diagnosis.
+## Link to Data Set: 
+https://www.kaggle.com/datasets/timothyadeyemi/dementia-patient-health-dataset/data 
