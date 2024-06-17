@@ -1,7 +1,7 @@
 # Project-4
 
 ## Group Members: 
-Sarah Schilling, Mike Pointek, Michael Nurthen, Julius Bzozowski, Will Midson, Jordan 
+Sarah Schilling, Mike Pointek, Michael Nurthen, Julius Bzozowski, Will Midson, Jordan Mayville
 ## Objective: 
 Design one or more machine learning models to accurately predict whether a patient has dementia based on symptoms and lifestyle factors 
 ## Summary 
