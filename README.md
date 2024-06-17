@@ -1,8 +1,8 @@
 # Project-4
 
-## Group Members: 
+## Group Members 
 Sarah Schilling, Mike Pointek, Michael Nurthen, Julius Bzozowski, Will Midson, Jordan Mayville
-## Objective: 
+## Objective
 Design one or more machine learning models to accurately predict whether a patient has dementia based on symptoms and lifestyle factors 
 ## Summary 
 *  We obtained a data set from Kaggle that had 1000 rows of patients, their symptoms and lifestyle factors, and their dementia status represented by either a 1 (has dementia) or a 0 (does not have dementia).
@@ -12,4 +12,7 @@ Design one or more machine learning models to accurately predict whether a patie
 *  We perfomed a few SQL queries on the original data set and found that all patients who scored above a 7 on the cognitive test did not have dementia, while all patients who scored below a 7 did have dementia, explaining the 100% accuracy of the model. 
 *  Due to the perfect accuracy of our model, we decided to run a second random forest test, this time eliminating the cognitive test scores column as well as dropping two additional columns: depression_status_No, and apoe_4_Negative. These two columns had partner columns (depression_status_Yes, and apoe_4_Positive) which were mutually exclusive and could have created further unwanted correlation between columns in the data set, affecting the outcome of the model.
 *  The second random forest test yielded an accuracy score of 0.80. We then looked at the feature importance scores again and observed that depression_status_Yes had a score of 0.212, which was relatively high in comparison to the other columns.
-*  We went back to the data set and performed further SQL queries. We found that no patients who tested postive for dementia answered "yes" to having depression. We concluded that this was likely an error in the data set, due to the extreme improbability that all 515 patients who were negative dementia were also negative for depression. 
+*  We went back to the data set and performed further SQL queries. We found that no patients who tested postive for dementia answered "yes" to having depression. We concluded that this was likely an error in the data set, due to the extreme improbability that all patients who were negative dementia were also negative for depression. 
+
+## Ethical Considerations / Closing Remarks 
+There are significant ethical considerations involved with conducting a cognitive test. Some people may not immediately take the test because they don't necessarily want to know their diagnosis. They may want to retain control over their lives and try to better themselves through altering lifestyle choices without having this diagnosis on their consciousness. They may not want to know they have dementia and have this inescapable fate. A low accuracy model without cognitive test scores just shows that dementia is a complicated condition and does not have one known cause. The research is still limited. You can do stuff about smoking, weight, diet, etc., but once you have the cognitive test results, you essentially have the diagnosis.
